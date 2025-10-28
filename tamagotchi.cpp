@@ -81,9 +81,9 @@ void eleccion(int& numero, string& figura) {
         
     cout << "¡Bienvenid@ a tu Tamagotchi!" << endl;
     cout << "Para empezar, por favor elige tu mascota" << endl;
-    cout << "1. ≽(•⩊ •マ≼ GATO" <<  endl;
-    cout << "2. ૮ • ⩊ - ა PERRO" << endl;
-    cout << "3. ૮꒰˶ᵔ ᗜ ᵔ˶꒱ა CONEJO" << endl;
+    cout << "1. )^w^)/ GATO" <<  endl;
+    cout << "2. /(OwO)/ PERRO" << endl;
+    cout << "3. /)*u*)/ CONEJO" << endl;
     cout << "Introduce tu eleccion: ";
     cin >> numero;
 
@@ -92,14 +92,14 @@ void eleccion(int& numero, string& figura) {
         cin >> numero;
     }
     if (numero == 1) {
-        cout << "¡Haz escogido gato! ≽(•⩊ •マ≼" << endl;
-        figura = "≽(•⩊ •マ≼";
+        cout << "¡Haz escogido gato! )^w^)/" << endl;
+        figura = ")^w^)/";
     } else if (numero == 2) {
-        cout << "¡Haz escogido perro! ૮ • ⩊ - ა" << endl;
-        figura = "૮ • ⩊ - ა";
+        cout << "¡Haz escogido perro! /(OwO)/" << endl;
+        figura = "/(OwO)/";
     } else if (numero == 3) {
-        cout << "¡Haz escogido conejo! ૮꒰˶ᵔ ᗜ ᵔ˶꒱" << endl;
-        figura = "૮꒰˶ᵔ ᗜ ᵔ˶꒱ა";
+        cout << "¡Haz escogido conejo! /)*u*)/" << endl;
+        figura = "/)*u*)/";
     }
 }
 
