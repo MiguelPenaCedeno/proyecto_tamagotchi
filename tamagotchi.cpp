@@ -48,16 +48,19 @@ int main () {
         break;
 
         case '3':
+        cout << "Tu mascota duerme zzz" << endl;
         dormir(energia, hambre);
         break;
 
         case '4':
+        cout << "Tu mascota se va a trabajar (?)" << endl;
         trabajar(energia, dinero, felicidad, hambre);
-
+        break;
+        
         case '5':
         cout << "Este es el mapa de la ciudad" << endl;
         mostrar_mapa(mapa);
-        cout << endl << "A donde te gustaria ir?";
+        cout << endl << "A donde te gustaria ir?" << endl;
         break;
 
         case '6':
